@@ -55,7 +55,7 @@ header {
     height: auto;
     object-fit: contain;
     border-radius: 6px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
 .cart-container {
@@ -65,7 +65,7 @@ header {
 
 /* Sección de presentación */
 .prese {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Imagenes/IMG-025.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Imagenes/img-025.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -403,6 +403,7 @@ header {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -425,6 +426,7 @@ header {
         transform: translateY(50px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
