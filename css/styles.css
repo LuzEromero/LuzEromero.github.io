@@ -68,14 +68,42 @@ header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Imagenes/img-025.jpeg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    /* Efecto de paralaje en escritorio */
     min-height: 100vh;
-    padding-top: 80px;
+    padding: 100px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: var(--white);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 1024px) {
+    .prese {
+        background-attachment: scroll;
+        /* Fondo se desplaza en móviles */
+    }
+}
+
+@media (max-width: 768px) {
+    .prese {
+        min-height: 80vh;
+        padding: 80px 15px 40px;
+    }
+}
+
+/* Ajustes adicionales para móviles más pequeños */
+@media (max-width: 480px) {
+    .prese {
+        min-height: 70vh;
+        padding: 60px 10px 30px;
+    }
 }
 
 .titulo {
