@@ -2,8 +2,8 @@
 
 // Lista de productos con nombres basados en los nombres originales de las imágenes
 const productos = [
-    { id: 'prod-1', nombre: 'IMG-001.jpeg', precio: 15000, imagen: '/Imagenes/IMG-001.jpeg', descripcion: 'Elegantes aretes artesanales con diseño único que combinan estilo y comodidad.', materiales: 'Acero quirúrgico, mostacillas de vidrio' },
-    { id: 'prod-2', nombre: 'IMG-002.jpeg', precio: 18000, imagen: '/Imagenes/IMG-002.jpeg', descripcion: 'Aretes modernos con contraste de colores que resaltan tu personalidad.', materiales: 'Acero quirúrgico, mostacillas miyuki' },
+    { id: 'prod-1', nombre: 'IMG-001.jpeg', precio: 15000, imagen: './Imagenes/IMG-001.jpeg', descripcion: 'Elegantes aretes artesanales con diseño único que combinan estilo y comodidad.', materiales: 'Acero quirúrgico, mostacillas de vidrio' },
+    { id: 'prod-2', nombre: 'IMG-002.jpeg', precio: 18000, imagen: './Imagenes/IMG-002.jpeg', descripcion: 'Aretes modernos con contraste de colores que resaltan tu personalidad.', materiales: 'Acero quirúrgico, mostacillas miyuki' },
     { id: 'prod-3', nombre: 'IMG-003.jpeg', precio: 20000, imagen: '/Imagenes/IMG-003.jpeg', descripcion: 'Aretes largos elegantes perfectos para ocasiones especiales.', materiales: 'Acero quirúrgico, cristales, mostacillas' },
     { id: 'prod-4', nombre: 'IMG-004.png', precio: 17000, imagen: '/Imagenes/IMG-004.png', descripcion: 'Aretes con diseño distintivo que añaden un toque de sofisticación.', materiales: 'Acero quirúrgico, mostacillas de colores' },
     { id: 'prod-5', nombre: 'IMG-005.jpeg', precio: 19000, imagen: '/Imagenes/IMG-005.jpeg', descripcion: 'Aretes con anillo multicolor que combinan diferentes estilos.', materiales: 'Acero quirúrgico, mostacillas multicolor' },
