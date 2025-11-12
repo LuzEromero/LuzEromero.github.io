@@ -8,7 +8,7 @@ const productos = [
     { id: 'prod-4', nombre: 'img-004.png', precio: 17000, imagen: 'Imagenes/img-004.png', descripcion: 'Aretes con diseño distintivo que añaden un toque de sofisticación.', materiales: 'Acero quirúrgico, mostacillas de colores' },
     { id: 'prod-5', nombre: 'img-005.jpeg', precio: 19000, imagen: 'Imagenes/img-005.jpeg', descripcion: 'Aretes con anillo multicolor que combinan diferentes estilos.', materiales: 'Acero quirúrgico, mostacillas multicolor' },
     { id: 'prod-6', nombre: 'img-006.jpeg', precio: 35000, imagen: 'Imagenes/img-006.jpeg', descripcion: 'Set completo de aretes y pulsera coordinados para un look armonioso.', materiales: 'Acero quirúrgico, mostacillas de vidrio, cristales' },
-    { id: 'prod-7', nombre: 'img-007.png', precio: 25000, imagen: 'Imagenes/img-007.png', descripcion: 'Pulsera delicada con tonos azul celeste que complementa cualquier outfit.', materiales: 'Hilo de nylon, mostacillas de vidrio, cierre metálico' },
+    { id: 'prod-7', nombre: 'img-007.jpeg', precio: 25000, imagen: 'Imagenes/img-007.jpeg', descripcion: 'Pulsera delicada con tonos azul celeste que complementa cualquier outfit.', materiales: 'Hilo de nylon, mostacillas de vidrio, cierre metálico' },
     { id: 'prod-8', nombre: 'img-008.jpeg', precio: 28000, imagen: 'Imagenes/img-008.jpeg', descripcion: 'Pulsera con detalle de estrella en azul marino, ideal para el día a día.', materiales: 'Hilo de nylon, mostacillas miyuki, charm de estrella' },
     { id: 'prod-9', nombre: 'img-009.jpeg', precio: 22000, imagen: 'Imagenes/img-009.jpeg', descripcion: 'Pulsera blanca minimalista que se adapta a cualquier estilo.', materiales: 'Hilo de algodón, mostacillas blancas, cierre ajustable' },
     { id: 'prod-10', nombre: 'img-010.jpeg', precio: 30000, imagen: 'Imagenes/img-010.jpeg', descripcion: 'Pulsera elegante con estrella dorada que añade un toque de lujo.', materiales: 'Hilo de nylon, mostacillas blancas, charm dorado' },
@@ -27,8 +27,7 @@ const productos = [
     { id: 'prod-23', nombre: 'img-023.jpeg', precio: 29000, imagen: 'Imagenes/img-023.jpeg', descripcion: 'Pulsera con diseño azul y blanco que incluye borlas decorativas.', materiales: 'Hilo de nylon, mostacillas azules y blancas, borlas' },
     { id: 'prod-24', nombre: 'img-024.jpeg', precio: 26000, imagen: 'Imagenes/img-024.jpeg', descripcion: 'Pulsera clásica en azul y blanco que combina con todo tipo de outfits.', materiales: 'Hilo de nylon, mostacillas azules y blancas, cierre metálico' },
     { id: 'prod-25', nombre: 'img-025.jpeg', precio: 40000, imagen: 'Imagenes/img-025.jpeg', descripcion: 'Set de pulseras de presentación con variedad de estilos y colores.', materiales: 'Hilo de nylon, mostacillas de vidrio, cristales, cierres metálicos' },
-    { id: 'prod-26', nombre: 'img-026.jpeg', precio: 35000, imagen: 'Imagenes/img-026.jpeg', descripcion: 'Producto especial con diseño exclusivo y materiales de primera calidad.', materiales: 'Materiales premium, mostacillas de alta calidad, acabado artesanal' },
-    { id: 'prod-27', nombre: 'img-027.jpeg', precio: 37000, imagen: 'Imagenes/img-027.jpeg', descripcion: 'Producto especial con acabado refinado y atención al detalle.', materiales: 'Materiales selectos, técnica artesanal avanzada, acabado profesional' }
+    { id: 'prod-26', nombre: 'img-027.jpeg', precio: 37000, imagen: 'Imagenes/img-027.jpeg', descripcion: 'Producto especial con acabado refinado y atención al detalle.', materiales: 'Materiales selectos, técnica artesanal avanzada, acabado profesional' }
 ];
 
 // Función para crear una tarjeta de producto
