@@ -2,9 +2,9 @@
 
 // Lista de productos con nombres basados en los nombres originales de las imágenes
 const productos = [
-    { id: 'prod-1', nombre: 'Aretes azules en Miyuki', precio: 25000, imagen: 'Imagenes/img-001.jpeg', descripcion: 'Elegantes aretes artesanales con diseño único que combinan estilo y comodidad.', materiales: 'Acero , Miyuki' },
+    { id: 'prod-1', nombre: 'Aretes azules ', precio: 25000, imagen: 'Imagenes/img-001.jpeg', descripcion: 'Elegantes aretes artesanales con diseño único que combinan estilo y comodidad.', materiales: 'Acero , Miyuki' },
     { id: 'prod-2', nombre: 'Aretes Espejito Nocturna', precio: 18000, imagen: 'Imagenes/img-002.jpeg', descripcion: 'Aretes modernos con contraste de colores que resaltan tu personalidad.', materiales: 'Acero , Miyuki' },
-    { id: 'prod-3', nombre: 'Aretes Colaespada Dyson', precio: 20000, imagen: 'Imagenes/img-003.jpeg', descripcion: 'Aretes largos elegantes perfectos para ocasiones especiales.', materiales: 'Acero , Miyuki' },
+    { id: 'prod-3', nombre: 'Aretes Colaespada ', precio: 20000, imagen: 'Imagenes/img-003.jpeg', descripcion: 'Aretes largos elegantes perfectos para ocasiones especiales.', materiales: 'Acero , Miyuki' },
     { id: 'prod-4', nombre: 'Aretes Violeta Monarca', precio: 17000, imagen: 'Imagenes/img-004.png', descripcion: 'Aretes con diseño distintivo que añaden un toque de sofisticación.', materiales: 'Acero, miyuki de colores' },
     { id: 'prod-5', nombre: 'Aretes y anillo Blanca Amazónica', precio: 19000, imagen: 'Imagenes/img-005.jpeg', descripcion: 'Aretes con anillo multicolor que combinan diferentes estilos.', materiales: 'Acero, miyuki multicolor' },
     { id: 'prod-6', nombre: 'Aretes y pulsera morpho butterfly', precio: 35000, imagen: 'Imagenes/img-006.jpeg', descripcion: 'Set completo de aretes y pulsera coordinados para un look armonioso.', materiales: 'Acero, miyuki' },
@@ -13,21 +13,21 @@ const productos = [
     { id: 'prod-9', nombre: 'Pulsera turquesa', precio: 22000, imagen: 'Imagenes/img-009.jpeg', descripcion: 'Pulsera azul minimalista que se adapta a cualquier estilo.', materiales: 'Miyuki,Accesorios en acero y cierre ajustable' },
     { id: 'prod-10', nombre: 'Pulsera blanca', precio: 30000, imagen: 'Imagenes/img-010.jpeg', descripcion: 'Pulsera elegante con  dorado que añade un toque de lujo.', materiales: 'Miyuki blanco,' },
     { id: 'prod-11', nombre: 'Pulsera Blanca y Dorada', precio: 26000, imagen: 'Imagenes/img-011.jpeg', descripcion: 'Pulsera elegante con estrella dorada que añade un toque de lujo.', materiales: 'Miyuki blanco y dorado' },
-    { id: 'prod-12', nombre: 'img-012.jpeg', precio: 24000, imagen: 'Imagenes/img-012.jpeg', descripcion: 'Pulsera con diseño alegre que combina múltiples colores.', materiales: 'Hilo de nylon, mostacillas de vidrio multicolor' },
-    { id: 'prod-13', nombre: 'img-013.jpeg', precio: 27000, imagen: 'Imagenes/img-013.jpeg', descripcion: 'Pulsera con tonos tierra que aporta un estilo natural y bohemio.', materiales: 'Hilo de algodón, mostacillas en tonos tierra' },
-    { id: 'prod-14', nombre: 'img-014.jpeg', precio: 32000, imagen: 'Imagenes/img-014.jpeg', descripcion: 'Pulsera sofisticada con cristales negro y rosa, incluye borla decorativa.', materiales: 'Hilo de nylon, cristales, borla de hilo, cierre metálico' },
-    { id: 'prod-15', nombre: 'img-015.jpeg', precio: 35000, imagen: 'Imagenes/img-015.jpeg', descripcion: 'Pulsera dorada elegante con detalles en mostacillas azules.', materiales: 'Hilo dorado, mostacillas azules, cierre metálico' },
-    { id: 'prod-16', nombre: 'img-016.jpeg', precio: 29000, imagen: 'Imagenes/img-016.jpeg', descripcion: 'Pulsera multicolor vibrante que expresa personalidad y alegría.', materiales: 'Hilo de nylon, mostacillas de vidrio multicolor' },
-    { id: 'prod-17', nombre: 'img-017.jpeg', precio: 33000, imagen: 'Imagenes/img-017.jpeg', descripcion: 'Pulsera negra con acento turquesa miyuki que destaca por su elegancia.', materiales: 'Hilo de nylon negro, mostacillas miyuki turquesa' },
-    { id: 'prod-18', nombre: 'img-018.jpeg', precio: 31000, imagen: 'Imagenes/img-018.jpeg', descripcion: 'Pulsera negra con cristales que refleja luz y sofisticación.', materiales: 'Hilo de nylon negro, cristales, cierre metálico' },
-    { id: 'prod-19', nombre: 'img-019.jpeg', precio: 28000, imagen: 'Imagenes/img-019.jpeg', descripcion: 'Pulsera roja festiva perfecta para ocasiones especiales y celebraciones.', materiales: 'Hilo de nylon rojo, mostacillas de vidrio, cierre metálico' },
-    { id: 'prod-20', nombre: 'img-020.jpeg', precio: 23000, imagen: 'Imagenes/img-020.jpeg', descripcion: 'Pulsera rosa delicada que añade un toque femenino y suave.', materiales: 'Hilo de nylon rosa, mostacillas de vidrio' },
-    { id: 'prod-21', nombre: 'img-021.jpeg', precio: 30000, imagen: 'Imagenes/img-021.jpeg', descripcion: 'Pulsera tejida con técnica artesanal en tonos tierra naturales.', materiales: 'Hilo de algodón, técnica de tejido, mostacillas en tonos tierra' },
-    { id: 'prod-22', nombre: 'img-022.jpeg', precio: 38000, imagen: 'Imagenes/img-022.jpeg', descripcion: 'Pulsera premium con acero y mostacillas miyuki turquesa de alta calidad.', materiales: 'Acero quirúrgico, mostacillas miyuki turquesa, cierre de acero' },
-    { id: 'prod-23', nombre: 'img-023.jpeg', precio: 29000, imagen: 'Imagenes/img-023.jpeg', descripcion: 'Pulsera con diseño azul y blanco que incluye borlas decorativas.', materiales: 'Hilo de nylon, mostacillas azules y blancas, borlas' },
-    { id: 'prod-24', nombre: 'img-024.jpeg', precio: 26000, imagen: 'Imagenes/img-024.jpeg', descripcion: 'Pulsera clásica en azul y blanco que combina con todo tipo de outfits.', materiales: 'Hilo de nylon, mostacillas azules y blancas, cierre metálico' },
-    { id: 'prod-25', nombre: 'img-025.jpeg', precio: 40000, imagen: 'Imagenes/img-025.jpeg', descripcion: 'Set de pulseras de presentación con variedad de estilos y colores.', materiales: 'Hilo de nylon, mostacillas de vidrio, cristales, cierres metálicos' },
-    { id: 'prod-26', nombre: 'img-027.jpeg', precio: 37000, imagen: 'Imagenes/img-027.jpeg', descripcion: 'Producto especial con acabado refinado y atención al detalle.', materiales: 'Materiales selectos, técnica artesanal avanzada, acabado profesional' }
+    { id: 'prod-12', nombre: 'Pulsera multicolor', precio: 24000, imagen: 'Imagenes/img-012.jpeg', descripcion: 'Pulsera con diseño alegre que combina múltiples colores.', materiales: 'Miyuki multicolor,multicolor, cierre ajustable' },
+    { id: 'prod-13', nombre: 'Pulsera colores', precio: 27000, imagen: 'Imagenes/img-013.jpeg', descripcion: 'pulsera de tonos alegres y elegantes.', materiales: 'miyuki de colores, cierre ajustable' },
+    { id: 'prod-14', nombre: 'Pulsera', precio: 32000, imagen: 'Imagenes/img-014.jpeg', descripcion: 'Pulsera con tonos tierra que aporta un estilo natural y bohe.', materiales: 'miyuki y cierre ajustable ' },
+    { id: 'prod-15', nombre: 'Pulsera', precio: 35000, imagen: 'Imagenes/img-015.jpeg', descripcion: 'Pulsera dorada elegante con detalles en mostacillas azules.', materiales: 'Hilo negro, miyuki azul, cierre ajustable' },
+    { id: 'prod-16', nombre: 'Pulsera gris y azul', precio: 29000, imagen: 'Imagenes/img-016.jpeg', descripcion: 'Pulsera elegante con miyuki azul .', materiales: 'Hilo ajustable, Miyuki' },
+    { id: 'prod-17', nombre: 'Pulsera', precio: 33000, imagen: 'Imagenes/img-017.jpeg', descripcion: 'Pulsera negra con acento turquesa miyuki que destaca por su elegancia.', materiales: 'Hilo de nylon negro, miyuki turquesa' },
+    { id: 'prod-18', nombre: 'Pulsera Negro azul', precio: 31000, imagen: 'Imagenes/img-018.jpeg', descripcion: '****************', materiales: 'Cilindro de miyuki azul, cierre metálico' },
+    { id: 'prod-19', nombre: 'Pulsera Negra', precio: 28000, imagen: 'Imagenes/img-019.jpeg', descripcion: 'Pulsera negra con cristales que refleja luz y sofisticación. .', materiales: 'Hilo de Nylon negro y piedras' },
+    { id: 'prod-20', nombre: 'Pulsera Roja', precio: 23000, imagen: 'Imagenes/img-020.jpeg', descripcion: 'pulsera roja, con cilindro de de colores elegante .', materiales: 'Hilo de nylon rojo, cilindro en miyuki, cierre metálico' },
+    { id: 'prod-21', nombre: 'Pulsera Rosa ', precio: 30000, imagen: 'Imagenes/img-021.jpeg', descripcion: 'pulsera rosa', materiales: 'Hilo de nylon rosa, cilindro de miyuki en piedaras de colores ' },
+    { id: 'prod-22', nombre: 'Pulsera Tejida ', precio: 38000, imagen: 'Imagenes/img-022.jpeg', descripcion: 'pulsera tejida en miyuki de tonos tierra.', materiales: 'Miyuki, hilo con cierre ajustable' },
+    { id: 'prod-23', nombre: 'Pulsera Azul turquesa', precio: 29000, imagen: 'Imagenes/img-023.jpeg', descripcion: 'Pulsera elegante con tonos azules.', materiales: 'cilindro en Miyuki y acero' },
+    { id: 'prod-24', nombre: 'Pulsera Elegant', precio: 26000, imagen: 'Imagenes/img-024.jpeg', descripcion: 'Pulsera con diseño azul y blanco que incluye borlas decorativas.', materiales: 'Hilo de nylon, piedras azules y blancas, cierre metálico' },
+    { id: 'prod-25', nombre: 'Pulsera Blanca Azul', precio: 40000, imagen: 'Imagenes/img-025.jpeg', descripcion: 'Pulsera clásica en azul y blanco que combina con todo tipo de outfits.', materiales: 'Hilo de nylon, cilindros de Miyuki, cierres ajustable' },
+    { id: 'prod-26', nombre: 'Aretes Dorado & Azul', precio: 37000, imagen: 'Imagenes/img-027.jpeg', descripcion: 'Producto especial con acabado refinado y atención al detalle.', materiales: 'Materiales selectos, técnica artesanal avanzada, acabado profesional' }
 ];
 
 // Función para crear una tarjeta de producto
